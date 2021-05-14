@@ -1,5 +1,5 @@
 function gestionarFicheroXML(xmlDoc){
-	alert(xmlDoc)
+	alert("Cargar XML")
 	let capaVacia = document.querySelector("#ficheroXML")
 	let libros = xmlDoc.querySelectorAll("libro")
 	for(let i=0; i<libros.length; i++){
