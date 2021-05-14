@@ -5,9 +5,3 @@ function gestionarFicheroXML(xmlDoc){
 		capaVacia.innerHTML = capaVacia.innerHTML + "<p>" + alumnos[i].textContent + "</p>"
 	
 }
-
-let capa = document.querySelector("div:nth-child(1)")
-capa.addEventListener("click",CargarFichero);
-function CargarFichero(){
-	loadDocA("leerFicheroXML.xml","xml"); /*loadDocA --> para llamar un fichero y su tipo*/
-}
