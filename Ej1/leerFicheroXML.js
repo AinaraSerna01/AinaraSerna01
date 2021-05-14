@@ -5,4 +5,4 @@ function gestionarFicheroXML(xmlDoc){
 		capaVacia.innerHTML = capaVacia.innerHTML + "<p>" + alumnos[i].textContent + "</p>"
 	
 }
-loadDocA("libros.xml","xml");
+loadDocA("libros.xml","xml") /*loadDocA --> para llamar un fichero y su tipo*/
