@@ -5,3 +5,4 @@ function gestionarFicheroXML(xmlDoc){
 		capaVacia.innerHTML = capaVacia.innerHTML + "<p>" + alumnos[i].textContent + "</p>"
 	
 }
+loadDocA("LeerFicheroXML.xml","xml");
