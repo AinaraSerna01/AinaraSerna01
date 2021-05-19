@@ -1,0 +1,9 @@
+Animales domésticos:
+Perro
+Gato
+Conejo
+Pájaro
+Hámster
+Cobaya
+Pez
+Tortuga
