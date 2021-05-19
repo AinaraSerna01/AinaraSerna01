@@ -1,0 +1,15 @@
+busquedaLibros{
+    margin: 0px;
+}
+libreria{
+    max-width: 100vw;
+    min-height: 100vh;
+    display: table;
+}
+libro{
+    display: table-column;
+}
+ISBN, titulo, nivelProfundidad, autores, editorial, fechaPublicacion, paginaWeb, precio{
+    display: table-row;
+    border: 1px solid black
+}
