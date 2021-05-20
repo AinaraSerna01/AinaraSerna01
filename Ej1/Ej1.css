@@ -13,3 +13,6 @@ ISBN, titulo, nivelProfundidad, autores, editorial, fechaPublicacion, paginaWeb,
     display: table-row;
     border: 1px solid black
 }
+.cambio{
+    background-color: green;
+}
