@@ -8,7 +8,7 @@ function loadLDocA(fichero,tipo)
         if(http.status === 200) {
             if(tipo == "xml")
             {
-                gestionarXML(http.responseXML)
+                gestionarFicheroXML(http.responseXML)
             }
             else
 			    gestionarFicheroTXT(http.responseText)
