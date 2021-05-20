@@ -7,8 +7,7 @@ function gestionarFicheroXML(xmltree){
     for(let i=0; i<libros.length; i++){
         console.log("Entro al bucle")
         if(i == 3){
-            capa.innerHTML += "<p>" + libros[i].textContent + "</p>"
-            libros[3].classname="cambio"
+            capa.innerHTML += "<p class='cambio'>" + libros[i].textContent + "</p>"
             
         } else {
             capa.innerHTML += "<p>" + libros[i].textContent + "</p>"
