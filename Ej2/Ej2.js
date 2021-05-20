@@ -6,12 +6,11 @@ function gestionarFicheroXML(xmltree){
     console.log(mensajes.length)
     for(let i=0; i<mensajes.length; i++){
         console.log("Entro al bucle")
-        if(i == 1 || i== 3 || i==5){
-            capa.innerHTML += "<p class='impar'>" + mensajes[i].textContent + "</p>"
+        if(i == 2){
+            capa.innerHTML += "<p class='par'>" + mensajes[i].textContent + "</p>"
             
         } else {
-            capa.innerHTML += "<p class='par'>" + mensajes[i].textContent + "</p>"
+            capa.innerHTML += "<p>" + mensajes[i].textContent + "</p>"
         }
-    }
-  
+    } 
 }
