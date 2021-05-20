@@ -1,7 +1,7 @@
 loadLDocA("Ej2.xml","xml")
 function gestionarFicheroXML(xmltree){
     let capa = document.querySelector(".arbolXML")
-    let mensajes = xmltree.querySelector("mensaje")
+    let mensajes = xmltree.querySelectorAll("mensaje")
     
     console.log(mensajes.length)
     for(let i=0; i<mensajes.length; i++){
