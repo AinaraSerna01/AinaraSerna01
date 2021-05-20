@@ -1,4 +1,3 @@
-
 let xmltree = loadLDocA("libros.xml","xml")
 
 let capa = document.querySelector(".árbolXML")
