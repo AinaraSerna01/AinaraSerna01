@@ -6,6 +6,6 @@ function gestionarFicheroXML(xmltree){
       capa.innerHTML += capa.innerHTML + "<p>" + libros[i].textContent + "</p>"
     }
     let libro3 = xmltree.querySelector("libro:nth-child(3)")
-    alert("Cambio del 3º libro")
+    alert(libro3)
     libro3.className="cambio"
 }
