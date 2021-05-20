@@ -7,5 +7,5 @@ function gestionarFicheroXML(xmltree){
     }
     let libro3 = xmltree.querySelector("libro:nth-child(3)")
     alert("Cambio del 3º libro")
-    libro3[0].className="cambio"
+    libro3.className="cambio"
 }
