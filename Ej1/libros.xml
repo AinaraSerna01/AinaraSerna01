@@ -27,7 +27,7 @@
 			<paginaWeb>www.lasdostorres.com</paginaWeb>
 			<precio moneda="&#8364;">22</precio>
 		</libro>
-		<libro class="cambio"> 
+		<libro class="nada"> 
 			<ISBN>84-350-0202-9</ISBN> 
 			<titulo>El Se�or de los Anillos - El retorno del rey</titulo> 
 			<nivelProfundidad>avanzado</nivelProfundidad>
