@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href=""?>
+<raiz>
+    <onversacion>
+        <mensaje>Hola q tal</mensaje>
+        <mensaje>Pues bien y tu</mensaje>
+        <mensaje>Bueno, vamos tirando. Te apetece cenar hoy?</mensaje>
+        <mensaje>Si además han abierto un nuevo restaurante cerca de mi casa</mensaje>
+        <mensaje>Bien me paso a las 20:30</mensaje>
+        <mensaje>Estupendo, nos vemos :)</mensaje>
+    </conversacion>
+</raiz>
