@@ -6,11 +6,13 @@ function gestionarFicheroXML(xmltree){
     console.log(libros.length)
     for(let i=0; i<libros.length; i++){
         console.log("Entro al bucle")
-        //if(i == 2)
-            //
-        //else
-      capa.innerHTML += capa.innerHTML + "<p>" + libros[i].textContent + "</p>"
-        console.log(capa.innerHTML)
+        if(i == 3){
+            capa.innerHTML += "<p>" + libros[i].textContent + "</p>"
+            libros[3].classname="cambio"
+            
+        } else {
+            capa.innerHTML += "<p>" + libros[i].textContent + "</p>"
+        }
     }
   
 }
