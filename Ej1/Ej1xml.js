@@ -7,6 +7,7 @@ function gestionarFicheroXML(xmltree){
             //
         //else
       capa.innerHTML += capa.innerHTML + "<p>" + libros[i].textContent + "</p>"
+        console.log(capa.innerHTML)
     }
   
 }
