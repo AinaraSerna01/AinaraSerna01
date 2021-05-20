@@ -7,6 +7,6 @@ for(let i=0; i<alumnos.length; i++){
 
 let xmltree = loadLDocA("libros.xml","xml")
 
-let change = xmltree.querySelector(".nada")
+let libro3 = xmltree.querySelector("libro:nth-clild(3)")
 alert("Cambio del 3º libro")
-change[0].className="cambio"
+libro3[0].className="cambio"
