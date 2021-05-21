@@ -6,7 +6,7 @@ function gestionarFicheroXML(xmltree){
     console.log(mensajes.length)
     for(let i=0; i<mensajes.length; i++){
         console.log("Entro al bucle")
-        let res = i%2
+        let res = i&2
         if(res==0){
             capa.innerHTML += "<p class='par'>" + mensajes[i].textContent + "</p>"
         } else {
