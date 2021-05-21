@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/css" href="Ej2.css"?>
 <raiz>
-    <onversacion>
+    <conversacion>
         <mensaje class="nada1">Hola q tal</mensaje>
         <mensaje class="nada2">Pues bien y tu</mensaje>
         <mensaje class="nada1">Bueno, vamos tirando. Te apetece cenar hoy?</mensaje>
