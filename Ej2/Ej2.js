@@ -8,8 +8,6 @@ function gestionarFicheroXML(xmltree){
         console.log("Entro al bucle")
         if(i == 0){
             capa.innerHTML += "<p class='par'>" + mensajes[i].textContent + "</p>"
-        } else if (i == 1 || i == 3 | i == 5){
-            capa.innerHTML += "<p class='impar'>" + mensajes[i].textContent + "</p>"
         } else {
             capa.innerHTML += "<p>" + mensajes[i].textContent + "</p>"
         }
