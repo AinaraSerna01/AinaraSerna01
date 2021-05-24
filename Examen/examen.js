@@ -11,6 +11,7 @@ function gestionarFicheroXML(xmltree){
 
 addEventListener("mouseover", function(){
     alert("Cambio de estilo")
+    let animales = xmltree.querySelectorAll("animal")
     for(let i=0; i<animales.length; i++){
         let res = i % 2
         if (res == 0){
