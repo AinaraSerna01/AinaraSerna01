@@ -1,4 +1,4 @@
-LoadLDocA("examen.xml","xml")
+loadLDocA("examen.xml","xml")
 function gestionarFicheroXML(xmltree){
     let capa = document.querySelector(".arbolXML")
     let animales = xmltree.querySelectorAll("animal")
