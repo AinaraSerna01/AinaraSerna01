@@ -14,9 +14,9 @@ addEventListener("mouseover", function(){
     for(let i=0; i<animales.length; i++){
         let res = i % 2
         if (res == 0){
-            animales[i].className="par"
+            capa.innerHTML += <p class='par'> + animales[i].textContent + </p> 
         } else {
-            animales[i].className="impar"
+            capa.innerHTML += <p class='impar'> + animales[i].textContent + </p>
         }
     }
 })
