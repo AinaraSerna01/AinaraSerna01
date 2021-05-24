@@ -9,7 +9,7 @@ function gestionarFicheroXML(xmltree){
     }
 }
 
-addEventListener("mouseover", function(){
+addEventListener("mouseover", function(xmltree){
     alert("Cambio de estilo")
     let animales = xmltree.querySelectorAll("animal")
     for(let i=0; i<animales.length; i++){
